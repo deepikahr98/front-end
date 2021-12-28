@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AIRLINE</title>
+	<link rel="stylesheet" href="./home.component.css">
+</head>
+<body>
+	<nav class="navbar">
+	<img alt="" height="90px" width="90px" src="..\assets\img\OIP.jpg">
+		<h1 class="logo">ADVENTURE AIRLINE</h1>
+		<ul class="nav-links">
+			<li><a href="/">Home</a></li>
+			<li><a href="log-in">Login</a></li>
+			<li><a href="register">Register</a></li>
+			<li><a href="about">About</a></li>
+			<li><a href="contact">Contact</a></li>
+			
+		</ul>
+		<img src="./img/menu-btn.jpg" alt="" class="menu-btn">
+		
+	</nav>
+	 <header>
+	<div class="header-content">
+	<h2>Explore The Colorful World</h2>
+	<div class="line"></div>
+	<h1>A WONDERFUL GIFT</h1>
+	</div>
+	</header>
+	
+	<!--  Events  -->
+	<section class="events">
+	<div class="title">
+		<h1>Upcoming Events</h1>
+		<div class="line"></div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<img src="..\assets\img\img1.jpg" alt="" width="400px" height="300px">
+			<h4>International Holiday Tour Packages</h4>
+			<p>welcome to international holiday tour packages</p>
+			<a href="#" class="ctn">Learn More</a>
+		</div>
+		<div class="col">
+			<img src="..\assets\img\img2.jpg" alt="" width="400px" height="300px">
+			<h4>Low Cost Last Minute Holiday Tour Packages</h4>
+			<p>welcome to Low Cost Last Minute holiday tour packages</p>
+			<a href="#" class="ctn">Learn More</a>
+		</div>
+	</div>
+	</section>
+	
+	<section class="explore">
+		<div class="explore-content">
+		<h1>EXPLORE THE WORLD</h1>
+		<div class="line"></div>
+		<p>Welcome to explore the world, asdfgjrtyn ert xcvkj reuftdyv gdg uyghjdu hd hdvsy uegvf dsuygfwe usuyerdcdwyecytwuhfiu euergeu dudj wue</p>
+		<a href="#" class="ctn">Learn More</a>
+		</div>
+	</section>
+	
+	<section class="tours">
+		<div class="row">
+			<div class="col content-col">
+			<h1>UPCOMING TOURS & DESTINATION</h1>
+			<div class="line"></div>
+			<p>Welcome to upcoming tours and destination,dsfkj fsghjh jgkhlj ghf dretyrtu wrteyrt dsgfhj dsfgdf dsfghj farsj ertytuy xcv er sh rwetyrt as ewrety cxvc fgshj retyr</p>
+			<a href="#" class="ctn">Learn More</a>
+			</div>
+			<div class="col image-col">
+			<div class="image-gallery">
+				<img src="..\assets\img\img4.jpg" alt="" width="230px" height="230px">
+				<img src="..\assets\img\img5.jpg" alt="" width="230px" height="230px">
+				<img src="..\assets\img\img6.jpg" alt="" width="230px" height="230px">
+				<img src="..\assets\img\img7.jpg" alt="" width="230px" height="230px">
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="footer">
+		<p>123 Fifth Avenue, NY 10160, Bangalore, India | Phone: 080-123-456 | Email:yourspalave@gmail.com</p>
+		<p>Copyright 2021 Outdoor AdventureAirLine</p>
+	
+	</section>
+	
+	<script>
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlinks = document.querySelector('.nav-links')
+	
+		menuBtn.addEventListener('click',()=>{
+			navlinks.classList.toggle('mobile-menu')
+		})
+	</script>
+
+
+</body>
+
+
+</html>
+
+
+
+<router-outlet></router-outlet>
